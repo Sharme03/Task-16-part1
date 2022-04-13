@@ -1,0 +1,86 @@
+
+.required:after {
+    content:" *";
+    color: red;
+    display: inline-block;
+  }
+.child{
+    width: 200px;
+}
+#fname, #lname {
+    display: inline-block;
+}
+.container{
+    border-style: groove;
+    box-shadow: 20px;
+    width: 800px;
+    align-items: center;
+}
+label{
+    width: 60px;
+    /* display: inline-block; */
+}
+#form{
+    display: inline-block;
+}
+.rating{
+    flex-direction: row;
+   direction: rtl;
+   text-align: left;
+}
+.rating input{
+    display: none;
+}
+.td{
+    display: inline-block;
+    width: 28px;
+    position: relative;
+    cursor: pointer;
+}
+.checked {
+    color: orange;
+  }
+.comments{
+    width: 700px;
+    height: 100px;
+}
+.submit input{
+    width: 80px;
+    height: 20px;
+}
+th{
+    color: blue;
+}
+td{
+    border: chartreuse;
+    padding: 10px;
+}
+.table, .table1{
+    border-collapse: collapse;
+    box-shadow: 5px 5px 5px;
+    background-color: white;
+    text-align: left;
+} 
+.form{
+    width: 550px;
+}
+form.Form em {
+    font-size:12px;
+}
+table {
+    max-width: 100%; 
+}
+tr:nth-child(odd) {
+    background-color: #eee;
+}
+th {
+    background-color: #555;
+    color: #fff;
+}
+th,td {
+    text-align: left;
+    padding: 0.5em 1em;
+}
+#email{
+    width: 500px
+}
